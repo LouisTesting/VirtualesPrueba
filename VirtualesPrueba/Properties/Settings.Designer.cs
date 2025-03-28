@@ -166,5 +166,77 @@ namespace VirtualesPrueba.Properties {
                 this["DefaultUrl"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LogoPathUniversal {
+            get {
+                return ((string)(this["LogoPathUniversal"]));
+            }
+            set {
+                this["LogoPathUniversal"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string LastUser {
+            get {
+                return ((string)(this["LastUser"]));
+            }
+            set {
+                this["LastUser"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string PaperWidthRetail {
+            get {
+                return ((string)(this["PaperWidthRetail"]));
+            }
+            set {
+                this["PaperWidthRetail"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string UltimoUsuario {
+            get {
+                return ((string)(this["UltimoUsuario"]));
+            }
+            set {
+                this["UltimoUsuario"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Desactivado")]
+        public string EstadoBotonVirtuales {
+            get {
+                return ((string)(this["EstadoBotonVirtuales"]));
+            }
+            set {
+                this["EstadoBotonVirtuales"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Desactivado")]
+        public string EstadoBotonHipicas {
+            get {
+                return ((string)(this["EstadoBotonHipicas"]));
+            }
+            set {
+                this["EstadoBotonHipicas"] = value;
+            }
+        }
     }
 }

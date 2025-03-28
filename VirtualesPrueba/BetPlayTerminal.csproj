@@ -18,7 +18,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <IsWebBootstrapper>true</IsWebBootstrapper>
-    <PublishUrl>C:\Users\user\Desktop\El Inmejorable Publish\</PublishUrl>
+    <PublishUrl>C:\Users\user\Desktop\BetPlay TerminalPublish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -28,14 +28,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://apk.solutions/elinmejorable/</InstallUrl>
-    <ProductName>ElInmejorable</ProductName>
+    <InstallUrl>https://apk.solutions/BetPlayTerminal/</InstallUrl>
+    <ProductName>BetPlayTerminal</ProductName>
     <PublisherName>.</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.html</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>2.5.1.0</ApplicationVersion>
+    <ApplicationVersion>2.5.5.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -61,7 +61,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>ICONO-INMEJORABLE.ico</ApplicationIcon>
+    <ApplicationIcon>BETPLAY-ICON.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
@@ -135,6 +135,24 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsUniversal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsUniversal.Designer.cs">
+      <DependentUpon>SettingsUniversal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Virtuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Virtuales.Designer.cs">
+      <DependentUpon>Virtuales.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +174,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Virtuales.resx">
+      <DependentUpon>Virtuales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrintSettings.resx">
       <DependentUpon>FormPrintSettings.cs</DependentUpon>
@@ -205,6 +229,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BETPLAY-ICON.ico" />
     <Content Include="Extensiones\MOHIO\appconfig.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

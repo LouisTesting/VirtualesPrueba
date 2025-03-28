@@ -38,5 +38,23 @@
     <Setting Name="DefaultUrl" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://games.mohiogaming.com/cashier/integration/login/77569</Value>
     </Setting>
+    <Setting Name="LogoPathUniversal" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LastUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PaperWidthRetail" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UltimoUsuario" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EstadoBotonVirtuales" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Desactivado</Value>
+    </Setting>
+    <Setting Name="EstadoBotonHipicas" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Desactivado</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
